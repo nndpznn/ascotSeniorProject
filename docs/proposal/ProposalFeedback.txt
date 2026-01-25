@@ -1,0 +1,52 @@
+
+CMSI 4072 Spring 2026
+Project Proposal Feedback
+Project: Schedulr
+=========================
+Proposal Document [2 points]:
+   Verbal Description:
+      Your proposal successfully explains that you are continuing
+         development of Ascot Microforest Connect, which consists of
+         three major components.  The semester's focus includes
+         modernization and scaling for multiple microforests.  This is
+         a strong and clear high-level description.
+      Your proposal describes three main components, and the information
+         is embedded in paragraphs.  You describe the software stack and
+         the development tools which satisfies the requirement.
+      You clearly identify authorized contributors (e.g., microforest
+         volunteers, students, scientists) and casual observers who want
+         to learn about microforests.  This satisfies the requirement.
+
+
+   Justification:
+      You reference experience with Web development, Multi-app structures,
+         Database work (Firebase), and Code modernization which meets the
+         requirement well.  Further, you express that the Firebase structure
+         will be more complex than anything you've handled, Multi-platform
+         (mobile + admin + public portal) development is new to you, and
+         that modernization/scaling introduce new challenges.  This clearly
+         demonstrates extension.
+      You explicitly state that the project requires you to work at your
+         best with complexity is higher than anything you’ve done before,
+         but you feel it is manageable and already partly implemented.
+         This satisfies the "not too easy, not too hard" expectation.
+      Finally you say that the project was already in progress when you
+         took it over, but that you believe you can complete key
+         functionality and will focus first on database restructuring and
+         modernization, which demonstrates feasibility.
+
+
+Proposal Presentation [Slides and video] [3 points]:
+   Slides:
+      This is a great presentation with wonderful graphics that illustrate
+      the topic well.  Your slides are well-organized and have the right
+      amount of text to provide the 'hooks' the audience needs without the
+      distractions of long paragraphs of dense text.  Very well done.
+
+   Video:
+
+
+Summary:
+--------
+
+Nice job overall!  Keep up the good work.  Will update after video is posted.
