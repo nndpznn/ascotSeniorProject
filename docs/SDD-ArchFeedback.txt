@@ -1,0 +1,104 @@
+
+Documentation Feedback ~ Deliverable #3
+Software Design Document ~ Architecture
+CMSI 4072 Spring 2026 ~ Ascot
+=======================================
+
+6.1 INTRODUCTION SECTION:
+   System objectives section
+      Strengths:
+         Objectives are implied by components: collect field data,
+            administer data quality, and inform the public.
+      Suggestions:
+      Write explicit objectives split into functional (collect, clean,
+         publish) and non-functional (performance, reliability, security,
+         accessibility).
+      Add measurable targets (latency, SLAs).
+      Include data-quality objectives (timeliness, integrity across
+         all interfaces) and trust goals for public data.
+
+   Hardware, software, and human interfaces section
+      Strengths:
+         The mobile app’s use of device camera for QR codes and the
+         need for bright screens and 4G/5G is stated.
+         Three user-facing interfaces are identified: mobile data entry,
+         admin portal, and public web viewer.
+      Suggestions:
+         Add supported OS/browser versions, minimum device specs,
+            and offline/poor-signal behavior for field work.
+         Define accessibility standards for all UIs.
+         Document software interfaces more concretely (auth method,
+         API shapes, auth tokens, rate limits, error messages).
+         Summarize hardware/software/human interfaces in a table for
+            quick reference
+
+
+6.2 ARCHITECTURAL DESIGN SECTION:
+   Major software components section
+      Strengths:
+         Components are described with roles and main screens or data
+            units (e.g., QR scan, dashboards, CSV export, forest/users DB).
+         Responsibilities include admin curation and public read-only
+            visualizations, which map to real use cases.
+      Suggestions:
+         Define interfaces for each CSC/CSU: inputs, outputs, payload
+            formats, authentication, and error codes.
+         Document dependencies among components (e.g., which API
+            endpoints each UI calls; validation rules).
+         Capture failure modes and fallbacks (camera denied, upload
+            failed, conflicting edits, CSV size limits).
+         Clarify data protection at rest/in transit, PII handling for user
+            profiles, password hashing, and key storage
+
+   Major software interactions section
+      Strengths:
+         Interactions are enumerated for each pair: mobile<->DB, admin<->DB,
+            public<->DB, and device hardware usage by mobile.
+         Data flow directions are described.
+         States that admin curation governs what the public site shows,
+            ensuring consistency.
+      Suggestions:
+         Add sequence diagrams for key flows: field log submission,
+            admin review/cleanup, public publish/update.
+         Specify latency budgets, retry/backoff, idempotency keys, and
+            conflict resolution for repeated or offline submissions.
+         Define caching policy, pagination, and CSV export limits; note
+            data freshness guarantees across portals.
+
+   Architectural design diagrams section
+      Strengths:
+         Provides use case, component, and top-down class diagrams to
+            visualize structure and behavior.
+      Suggestions:
+         Ensure diagrams use standard UML notation, have legends, and
+            show boundaries and trust zones.
+         Add a system context diagram (users, apps, DB, external services,
+            device hardware) and a deployment view.
+         Annotate data flows (write/read paths, auth), and include error
+            paths or degraded-mode notes.
+
+
+OVERALL ASSESSMENT:
+   INTRODUCTION                        1.0
+   System objectives                   1.0
+   H/W, S/W, Human I/F                 1.0
+
+   ARCHITECTURAL DESIGN SECTION:
+   Major softwre components            1.0
+   Major software interactions         1.0
+   Architectural design diagrams       5.0
+                                     ======
+   Subtotal                           10.0
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus
+
+Nice work, here, Nolan!  Your SDD fulfills all the required sections and is
+in good shape overall.  A couple of things you can do to improve it are to
+write an explicit section 6.1 with context, drivers, assumptions, risks;
+Add measurable objectives and constraints; embed sequence, context, and true
+deployment diagrams with legends; and document data quality rules and some
+resiliency strategies.  One other thing to keep in mind is the proper UML
+diagram way of representing actors in a use case diagram ~ they are stick
+people, not boxes.
+
+Otherwise, great job on this deliverable!
