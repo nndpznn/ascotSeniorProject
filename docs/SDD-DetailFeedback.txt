@@ -1,0 +1,93 @@
+
+Documentation Feedback ~ Deliverable #4
+Software Design Document ~ Detailed Design
+CMSI 4072 Spring 2026
+==========================================
+
+DETAILED CLASS DESCRIPTIONS:
+   Strengths
+      This section correctly distinguishes between high-level CSCs and
+         their constituent CSUs, aligning well with the expected SDD
+         decomposition. The separation between data contribution,
+         administrative functionality, visualization, and backend data
+         management is clear and logically structured.
+   Suggestions
+      Class descriptions focus primarily on fields and omit method or
+         behavior descriptions. At the detailed design level, at least
+         representative operations should be documented for core classes.
+
+DETAILED INTERFACE DESCRIPTIONS:
+   Strengths
+      This section clearly explains how the three major frontends
+         interact indirectly through the backend database.
+      The role of the database as a synchronization hub is well
+         articulated.
+   Suggestions
+      Interface descriptions remain narrative and lack structured
+         detail. Inputs, outputs, and error conditions are not specified
+         explicitly for each interaction.
+
+DETAILED DATA STRUCTURE DESCRIPTIONS:
+   Strengths
+     This section successfully identifies the primary logical data
+        structures used by the system,
+     The relationships between
+        users, forests, and plant data are clearly described.
+   Suggestions
+      The data structure descriptions are high level and somewhat
+         fragmented. Providing a canonical schema view for major
+         collections (such as forests and users) would improve clarity.
+
+DETAILED DESIGN DIAGRAMS:
+   Strengths
+      This range of
+         diagrams is appropriate and supports both structural and
+         behavioral understanding of the system.
+   Suggestions
+      Diagrams are presented with minimal explanatory text. Brief
+         descriptions of what each diagram conveys and how it should be
+         interpreted would improve readability and review effectiveness.
+
+DATABASE DESIGN AND DESCRIPTION:
+   Strengths
+      Although the backend database is referenced throughout earlier
+         sections, its conceptual role as the central data authority is
+         clear and consistently described. This supports coherent system
+         reasoning.
+   Suggestions
+      A dedicated database design section is effectively missing.
+         Section 6.4 is not explicitly defined with schemas, access
+         patterns, or security considerations. At the detailed design
+         level, this represents a notable omission.
+
+
+----------------------------------------------
+OVERALL ASSESSMENT:
+   Category                          Points
+   Class Descriptions:                  3 of  3
+   Interface Descriptions:              3 of  3
+   Data structure Descriptions:         1 of  1
+   Design diagrams:                     3 of  3
+   Database design/descriptions:        2 of  2    [this is a gimme]
+                                     ===========
+   Subtotal                            10 of 10
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus
+
+
+OVERALL EVALUATION
+==================
+For **sections 6.3.1 through 6.4**, this SDD represents a
+**partially complete detailed-design document**. The core data
+model and high-level interface relationships are clearly
+articulated and demonstrate solid architectural reasoning.
+
+However, to fully satisfy detailed-design expectations, the
+document would benefit from expanded behavioral descriptions for
+core classes, more formalized interface contracts, and a clearly
+defined database design section. With these additions, the SDD
+would be well suited for both waterfall review and agile
+implementation guidance.
+
+Great work on this document as on all your documentation, Nolan!
+Keep it up!
