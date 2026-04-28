@@ -4,6 +4,22 @@ Senior Project course documentation for the Ascot Microforest Connect app.
 
 # Status Updates
 
+## Week 15
+### Ascot Data Contribution (ADC - Mobile App)
+| Finished!      | Working on... | Need Support With... | Next Up! | 
+| ----------- | ----------- | ----------- | ----------- |
+| No changes since last update | Deferring development to work on other components for now | Planning to meet with Dr. Willette and Dondi for proposing codebase handoff to our team so we can publish changes to app on App Store | None |
+
+### Ascot STEWARD Portal (renamed) (ASP - Admin Webpage)
+| Finished!      | Working on... | Need Support With... | Next Up! | 
+| ----------- | ----------- | ----------- | ----------- |
+| Finished SUPER-admin user flow for Ascot Project overseers, can approve and deny new micro-forests and create new database partitions! | Allowing Dr. Willette to change website text on AMfC via the Steward Portal | Brainstorming more useful features for SUPER-admins | Restructuring database to record plants as objects with states |
+
+### Ascot Microforest Connect Interface (AMfC - Public-Facing webpage)
+| Finished!      | Working on... | Need Support With... | Next Up! | 
+| ----------- | ----------- | ----------- | ----------- |
+| Dynamically routed micro-forest info pages for each forest organization | Using iTree software to extract plant statistics from raw data | None | Building out basic webpage stucture according to Lauren's designs and Dr. Willette's specifications |
+
 ## Week 13
 ### Ascot Data Contribution (ADC - Mobile App)
 | Finished!      | Working on... | Need Support With... | Next Up! | 
