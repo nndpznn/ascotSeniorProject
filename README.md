@@ -4,6 +4,22 @@ Senior Project course documentation for the Ascot Microforest Connect app.
 
 # Status Updates
 
+## Week 17
+### Ascot Data Contribution (ADC - Mobile App)
+| Finished!      | Working on... | Need Support With... | Next Up! | 
+| ----------- | ----------- | ----------- | ----------- |
+| No changes since last update | Deferring development to work on other components | Planning to meet with Dr. Willette and Dondi for proposing codebase handoff to our team so we can publish changes to app on App Store | None |
+
+### Ascot STEWARD Portal (renamed) (ASP - Admin Webpage)
+| Finished!      | Working on... | Need Support With... | Next Up! | 
+| ----------- | ----------- | ----------- | ----------- |
+| Finished feature allowing Dr. Willette to change website text on MfC via a new tab view | Finishing up documentation | None | Graduation and a great summer :) |
+
+### Ascot Microforest Connect Interface (AMfC - Public-Facing webpage)
+| Finished!      | Working on... | Need Support With... | Next Up! | 
+| ----------- | ----------- | ----------- | ----------- |
+| Implemented interface allowing Dr. Willette to input custom text | Documentation and final jumping-off points | None | None |
+
 ## Week 15
 ### Ascot Data Contribution (ADC - Mobile App)
 | Finished!      | Working on... | Need Support With... | Next Up! | 
